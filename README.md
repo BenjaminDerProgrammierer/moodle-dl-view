@@ -1,0 +1,3 @@
+# moodle-dl-view
+
+[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/BenjaminDerProgrammierer/moodle-dl-view)

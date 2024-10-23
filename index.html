@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moodle-DL Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Moodle-DL Viewer</div>
+    </nav>
+    
+    <div class="container">
+        <div id="dropZone" class="drop-zone">
+            <p>Drop your moodle-dl folder here or</p>
+            <input type="file" id="folderInput" webkitdirectory directory multiple>
+            <label for="folderInput">Choose Folder</label>
+        </div>
+
+        <div id="courseContent" class="course-content hidden">
+            <div class="sidebar">
+                <h2>Course Sections</h2>
+                <ul id="sectionList"></ul>
+            </div>
+            <div class="main-content">
+                <h1 id="courseName">Course Name</h1>
+                <div id="resources"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
